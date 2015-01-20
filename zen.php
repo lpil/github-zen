@@ -19,5 +19,5 @@ $zen = [
   "Speak like a human."
 ];
 
-echo array_rand($zen);
+echo $zen[array_rand($zen)];
 ?>
