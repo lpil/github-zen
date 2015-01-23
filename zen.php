@@ -1,5 +1,7 @@
 <?php
 
+header('Access-Control-Allow-Origin: *');
+
 $zen = [
   "Anything added dilutes everything else.",
   "Approachable is better than simple.",
